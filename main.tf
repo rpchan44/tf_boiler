@@ -7,6 +7,7 @@ terraform {
 # Call module
 module "hello" {
   source = "./modules/hello"
-  name   = var.name
+  fullname   = var.name ### came from root project variables.tf
+                        ### fullname was define in module hello variables.tf
 }
 

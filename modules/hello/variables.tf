@@ -1,5 +1,5 @@
 # modules/hello/variables.tf
-variable "name" {
+variable "fullname" {
   description = "Name to greet"
   type        = string
 }
