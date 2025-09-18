@@ -1,7 +1,7 @@
 
 # main.tf
 terraform {
-  required_version = ">= 1.13.3"
+  required_version = ">= 1.5.7"
 }
 
 # Call module
